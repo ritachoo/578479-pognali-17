@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Маргарита Чумаевская](https://up.htmlacademy.ru/adaptive/17/user/578479).
-* Наставник: `Неизвестно`.
+* Наставник: Татьяна Симоненко.
 
 ---
 
