@@ -1,0 +1,12 @@
+.actions-list {
+  @include list();
+
+  &_item {
+    font-size: 17px;
+  }
+
+  &__link {
+    color: $color-nightblue;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,40 @@
+.steps-list {
+  background-color: $color-nightblue;
+
+  @include list();
+
+  &__item {
+    padding-top: 23px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+
+    font-size: 18px;
+    line-height: 18px;
+    color: $color-nightblue;
+
+    &--1 {
+      background-color: $color-carrot;
+
+      @include radius-top(10px);
+    }
+
+    &--2 {
+      background-color: $color-orange;
+
+      @include radius-top(10px);
+    }
+
+    &--3 {
+      background-color: $color-tangerin;
+
+      @include radius-top(10px);
+    }
+
+    &--4 {
+      background-color: $color-yellow;
+
+      @include radius-top(10px);
+      @include radius-bottom(10px);
+    }
+  }
+}

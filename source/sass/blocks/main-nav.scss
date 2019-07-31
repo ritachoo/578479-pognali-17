@@ -1,0 +1,9 @@
+.main-nav {
+  list-style: none;
+
+  background-color: $color-white;
+
+  &__list {
+    @include list();
+  }
+}

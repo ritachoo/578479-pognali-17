@@ -1,0 +1,17 @@
+.contacts-list {
+  @include list();
+
+  &__item {
+    font-size: 16px;
+    line-height: 45px;
+  }
+
+  &__link {
+    color: $color-nightblue;
+    text-decoration: none;
+
+    &--feedback {
+      color: $color-yellow;
+    }
+  }
+}

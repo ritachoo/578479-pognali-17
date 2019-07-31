@@ -1,0 +1,17 @@
+.text {
+  &-light {
+    font-weight: 300;
+  }
+
+  &-medium {
+    font-weight: 600;
+  }
+
+  &-bold {
+    font-weight: 700;
+  }
+
+  &-uppercase {
+    text-transform: uppercase;
+  }
+}

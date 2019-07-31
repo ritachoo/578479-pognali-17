@@ -1,0 +1,9 @@
+.feedback-list {
+  &__text {
+    margin: 0;
+    padding-bottom: 41px;
+
+    line-height: 22px;
+    color: $color-white;
+  }
+}

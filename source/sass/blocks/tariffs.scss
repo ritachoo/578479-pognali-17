@@ -1,0 +1,25 @@
+.tariffs {
+  @include radius-bottom();
+
+  &__title {
+    padding-top: 63px;
+  }
+
+  &__wrapper {
+    padding-left: 25px;
+  }
+
+  &__price {
+    @include list();
+  }
+
+  &__show-all {
+    padding-top: 31px;
+    padding-bottom: 42px;
+  }
+
+  &__button {
+    color: $color-nightblue;
+    text-decoration: none;
+  }
+}

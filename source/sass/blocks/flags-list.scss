@@ -1,0 +1,5 @@
+.flags-list {
+  @include list();
+
+  padding-left: 25px;
+}

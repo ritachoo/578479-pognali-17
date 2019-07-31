@@ -1,0 +1,19 @@
+.page-main {
+  &__title {
+    margin: 0;
+    padding-top: 51px;
+    padding-bottom: 255px;
+
+    font-size: 36px;
+    line-height: 40px;
+    color: $color-white;
+
+    background-color: $color-navy;
+
+    &--pages {
+      padding-bottom: 20px;
+
+      @include radius-bottom(20px);
+    }
+  }
+}

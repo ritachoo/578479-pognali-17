@@ -1,0 +1,25 @@
+.routes {
+  background-color: $color-white;
+
+  @include radius-bottom();
+
+  &__title {
+    padding-top: 72px;
+  }
+
+  &__text {
+    margin: 0;
+    padding-bottom: 67px;
+
+    line-height: 22px;
+  }
+
+  &__countries {
+    @include list();
+  }
+
+  &__show-all {
+    padding-top: 32px;
+    padding-bottom: 30px;
+  }
+}

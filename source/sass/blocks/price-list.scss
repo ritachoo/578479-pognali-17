@@ -1,0 +1,17 @@
+.price-list {
+  &__item {
+    padding-top: 14px;
+    padding-bottom: 17px;
+
+    line-height: 22px;
+    color: $color-darkgray;
+  }
+
+  &__service {
+    margin: 0;
+  }
+
+  &__tariff {
+    margin: 0;
+  }
+}

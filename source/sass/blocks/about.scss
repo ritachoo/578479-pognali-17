@@ -1,0 +1,22 @@
+.about {
+  background-color: $color-nightblue;
+
+  @include radius-bottom();
+
+  &__title {
+    padding-top: 72px;
+  }
+
+  &__text {
+    margin: 0;
+
+    color: $color-white;
+
+    &--slogan {
+      margin: 0;
+      padding-bottom: 88px;
+
+      color: $color-white;
+    }
+  }
+}

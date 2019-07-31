@@ -1,0 +1,59 @@
+.companions {
+  background-color: $color-nightblue;
+
+  @include radius-bottom();
+
+  &__title {
+    padding-top: 34px;
+  }
+
+  &__text {
+    margin: 0;
+
+    line-height: 22px;
+    color: $color-white;
+
+    &--slogan {
+      margin: 0;
+      margin-bottom: 63px;
+      padding-top: 30px;
+
+      line-height: 22px;
+      color: $color-white;
+    }
+  }
+
+  &__profiles {
+    @include list();
+  }
+
+  &__show-all {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  &__catalog {
+    @include list();
+
+    padding-top: 28px;
+  }
+
+  &__show {
+    padding-top: 27px;
+    padding-bottom: 30px;
+  }
+
+  &__show-button {
+    color: $color-royalblue;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  &__pagination {
+    @include list();
+  }
+
+  &--catalog {
+    background-color: $color-smokegray;
+  }
+}

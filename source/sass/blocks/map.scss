@@ -1,0 +1,17 @@
+.map {
+  background-color: $color-yellow;
+
+  @include radius-bottom();
+
+  &__adress {
+    padding-top: 37px;
+
+    font-style: normal;
+    color: $color-nightblue;
+  }
+
+  &__wrapper {
+    padding-top: 38px;
+    padding-bottom: 35px;
+  }
+}

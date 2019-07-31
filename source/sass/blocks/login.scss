@@ -1,0 +1,18 @@
+.login {
+  &__text {
+    margin: 0;
+    padding-bottom: 36px;
+
+    line-height: 22px;
+    color: $color-white;
+  }
+
+  &__link {
+    color: $color-yellow;
+    text-decoration: underline;
+  }
+
+  &__form {
+    padding-bottom: 32px;
+  }
+}

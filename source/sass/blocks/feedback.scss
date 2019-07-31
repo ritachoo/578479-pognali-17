@@ -1,0 +1,12 @@
+.feedback {
+  &__wrapper {
+    background-color: $color-nightblue;
+
+    @include radius-bottom();
+  }
+
+  &__title {
+    padding-top: 72px;
+    padding-bottom: 28px;
+  }
+}

@@ -1,0 +1,48 @@
+.catalog-list {
+  &__item {
+    margin-bottom: 10px;
+
+    background-color: $color-white;
+
+    @include radius-top(20px);
+    @include radius-bottom(20px);
+  }
+
+  &__header {
+    padding: 15px 18px;
+  }
+
+  &__image {
+    border-radius: 50%;
+  }
+
+  &__title {
+    margin: 0;
+    padding-bottom: 11px;
+
+    font-size: 21px;
+    color: $color-royalblue;
+  }
+
+  &__subscribers {
+    margin: 0;
+
+    font-size: 14px;
+  }
+
+  &__tags {
+    padding-left: 25px;
+  }
+
+  &__text {
+    padding-left: 25px;
+  }
+
+  &__transport {
+    @include list;
+  }
+
+  &__invite {
+    padding-bottom: 22px;
+  }
+}

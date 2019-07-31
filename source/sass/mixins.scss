@@ -1,0 +1,15 @@
+@mixin list($margin:0, $padding:0, $list-style-type:none) {
+  margin: $margin;
+  padding: $padding;
+  list-style-type: $list-style-type;
+}
+
+@mixin radius-top($border-radius:25px) {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+
+@mixin radius-bottom($border-radius:25px) {
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+}

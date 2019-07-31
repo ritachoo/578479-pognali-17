@@ -1,0 +1,25 @@
+.profiles-list {
+  @include list();
+
+  &__item {
+    background-color: $color-white;
+    margin-bottom: 10px;
+
+    @include radius-top(10px);
+    @include radius-bottom(10px);
+  }
+
+  &__image {
+    @include radius-top(10px);
+  }
+
+  &__title {
+    padding: 21px 0;
+    font-size: 21px;
+    color: $color-royalblue;
+  }
+
+  &__transport {
+    @include list();
+  }
+}
