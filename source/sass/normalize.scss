@@ -12,7 +12,7 @@ html {
   line-height: 1.15;
   /* 1 */
 
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   /* 2 */
 }
 
@@ -71,7 +71,7 @@ hr {
 pre {
   /* 1 */
   font-size: 1em;
-  font-family: monospace, monospace;
+  font-family: monospace;
   /* 2 */
 }
 
@@ -94,8 +94,6 @@ a {
 abbr[title] {
   /* 1 */
   text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
 
   border-bottom: none;
   /* 2 */
@@ -120,7 +118,7 @@ kbd,
 samp {
   /* 1 */
   font-size: 1em;
-  font-family: monospace, monospace;
+  font-family: monospace;
   /* 2 */
 }
 
@@ -219,7 +217,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 /**
@@ -324,7 +322,7 @@ textarea {
   /* 1 */
   outline-offset: -2px;
 
-  -webkit-appearance: textfield;
+  appearance: textfield;
   /* 2 */
 }
 
@@ -333,7 +331,7 @@ textarea {
  */
 
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 /**
@@ -345,7 +343,7 @@ textarea {
   /* 1 */
   font: inherit;
 
-  -webkit-appearance: button;
+  appearance: button;
   /* 2 */
 }
 
